@@ -1,0 +1,25 @@
+Hello,let us understand some important concepts of Collections in java...
+
+if we are sure about generics then we use int/String... in for each loop otherwise
+we are not sure about generics then we use Object ..... in for each loop.(because Object is super class for all classes in java)
+for example:
+            List<Integer> l=new ArrayList<Integer>();            .            List l=new ArrayList();
+                                                                                    
+            l.add(111)                                           .            l.add(111);
+            l.add(1331);                                         .            l.add("RK");
+            for(int i:l)                                         .            for(Object o:l)
+              System.out.println(i);                             .             System.out.println(o);
+                                                                                
+                                                                                
+            out:111                                                            out:111
+                1331                                                               RK
+                                                                                   
+           
+            
+            
+            
+             
+             
+            
+               
+            
